@@ -1,44 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
 </head>
+
 <body>
- <header class="header">
-    <a href="" class="logo">Will.</a>
-    <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
- </header>
- <section class="home">
-    <div class="home-content">
-        <h1>Hi, Im cata aiden</h1>
-        <h3>frontend developer</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, iste repellendus. <br> Odio ratione voluptate excepturi, aut nobis in consequatur corporis debitis recusandae repellendus modi explicabo similique temporibus.</p>
-        <div class="btn-box">
-            <a href="#">hire me</a>
-            <a href="#">lets talk</a>
+    <nav class="nav">
+        <div class="logo">Will.</div>
+        <button class="abrir" id="abrir"><i class="ri-menu-line i"></i></button>
+        <div class="info" id="info">
+        <button class="cerrar" id="cerrar"><i class="ri-close-line i"></i></button>
+         
+            <a href="#" class="activity">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">contact</a>
         </div>
-    </div>
-    <div class="home-sci">
-        <a href="#"><i class="ri-facebook-fill"></i></a>
-        <a href="#"><i class="ri-twitter-fill"></i></a>
-        <a href="#"><i class="ri-reactjs-line"></i></a>
-        <a href="#"><i class="ri-instagram-line"></i></a>
-    </div>
-    <section class="img">
-        <img src="img/pngwing.com (29).png" alt="">
-    </section>
- </section>
+    </nav>
+    <main id="main">
+        <div class="left">
+            <h1>Hi, Im Cata Aiden</h1>
+            <h2>Frontend Developer</h2>
+            <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit.  Nam, Iste Repellendus.
+                Odio Ratione Voluptate Excepturi, Aut Nobis In Consequatur Corporis Debitis Recusandae Repellendus Modi
+                Explicabo Similique Temporibus.</p>
+                <div class="btn">
+                    <a href="#">hire me</a>
+            <a href="#">lets talk</a>
+                </div>
+                <div class="logos">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-reactjs-line"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                </div>
+        </div>
+        <div class="right">
+            <img class="img" src="pngwing.com (30).png" alt="">
+        </div>
+    </main>
 </body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="index.js"></script>
+
 </html>
