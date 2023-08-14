@@ -7,7 +7,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Poppins', sans-serif;
-        overflow: hidden;
+        
 }
 img{
     object-fit: cover;
@@ -17,7 +17,7 @@ body{
     background-color: #081B29;
     color: white;
     padding: 20px 10%;
-    
+    overflow: hidden;
 }
 nav{
     display: flex;
